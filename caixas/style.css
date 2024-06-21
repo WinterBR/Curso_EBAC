@@ -1,0 +1,46 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+body #caixas {
+    flex-direction: column;
+}
+
+#caixas input,
+#caixas button {
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+}
+
+#caixas button {
+    background-color: rgb(0, 255, 119);
+    color: white;
+    border: 2px solid rgb(9, 39, 37);
+}
+
+#caixas button:hover {
+    background-color: rgb(2, 106, 77);
+}
+
+#titulo h1 strong {
+    color: blueviolet;
+}
+
+footer {
+    font-size: 13px;
+    position: absolute;
+    right: 40px;
+    bottom: 0px;
+}
