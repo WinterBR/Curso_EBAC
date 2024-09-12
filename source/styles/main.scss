@@ -1,0 +1,59 @@
+@use 'variaveis';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+    body {
+        background-color: variaveis.$corPrincipal;
+    
+        header {
+            background-color: rgb(92, 43, 226);
+            font-size: 50px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            font-weight: 600;
+            color: rgb(234, 248, 243);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            font-size: 30px;
+            align-items: center;
+            align-content: center;
+            
+
+            input {
+                height: 70px;
+                width: 400px;
+                margin-bottom: 20px;
+                font-size: 25px;
+            }
+
+            button {
+                background-color: variaveis.$corBotao;
+                border: 0;
+                color: #fff;
+                height: 60px;
+                width: 200px;
+                font-size: 25px;
+                margin-top: 40px;
+
+                &:hover {
+                    background-color: lighten($color: variaveis.$corBotao, $amount: 10%);
+                    cursor: pointer;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
